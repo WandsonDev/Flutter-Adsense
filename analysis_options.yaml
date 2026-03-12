@@ -1,0 +1,14 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - avoid_web_libraries_in_flutter
+    - always_declare_return_types
+    - prefer_const_constructors
+    - prefer_final_fields
+    - prefer_single_quotes
+    - sort_pub_dependencies
+
+analyzer:
+  errors:
+    avoid_web_libraries_in_flutter: error

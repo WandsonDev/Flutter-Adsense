@@ -1,0 +1,28 @@
+name: flutter_adsense
+description: >-
+  Flutter Web library to initialize, manage and display Google AdSense ads.
+  Uses package:web and dart:js_interop for full Wasm compatibility.
+version: 1.0.0
+homepage: https://github.com/wandsondev/flutter-adsense
+repository: https://github.com/wandsondev/flutter-adsense
+issue_tracker: https://github.com/wandsondev/flutter-adsense/issues
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+topics:
+  - ads
+  - adsense
+  - monetization
+  - web
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
